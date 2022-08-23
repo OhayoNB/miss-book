@@ -1,0 +1,58 @@
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.book-details .go-back-btn {
+  align-self: flex-start;
+  border: none;
+  font-family: poppins;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.book-details .go-back-btn:hover {
+  background-color: aliceblue;
+}
+
+.book-details > * {
+  margin-bottom: 0.3rem;
+}
+
+.book-details img {
+  width: 350px;
+}
+
+.book-details .green {
+  color: green;
+}
+
+.book-details .red {
+  color: red;
+}
+
+.book-details h1 {
+  font-family: poppins-bold;
+  font-size: 2rem;
+}
+
+.book-details h5 {
+  font-size: 1rem;
+}
+
+.book-details h4 {
+  text-align: center;
+}
+
+.book-details h3 {
+  text-align: center;
+}
+
+.reviews-container {
+  gap: 20px;
+}

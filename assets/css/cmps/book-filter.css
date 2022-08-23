@@ -1,0 +1,9 @@
+.book-filter {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.book-filter input:not(:last-child) {
+  margin-right: 10px;
+}

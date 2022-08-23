@@ -1,0 +1,6 @@
+.long-txt-btn {
+  cursor: pointer;
+  border: none;
+  margin-left: 8px;
+  border-radius: 5px;
+}

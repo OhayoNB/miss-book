@@ -1,0 +1,39 @@
+header {
+  background-color: rgba(255, 255, 255, 0.642);
+  border-bottom: 2px solid gray;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.app-header .header-title {
+  font-size: 2rem;
+}
+
+.app-header .header-title:hover {
+  cursor: pointer;
+  color: rgb(117, 117, 117);
+}
+
+.app-header nav > *:not(:last-child) {
+  margin-inline-end: 10px;
+}
+
+.app-header nav > a:hover {
+  color: rgb(117, 117, 117);
+}
+
+.active {
+  font-family: poppins-bold;
+  color: rgb(117, 117, 117);
+}
+
+.my-active {
+  font-family: poppins-bold;
+  font-size: 1.2rem;
+  color: rgb(160, 160, 160);
+}

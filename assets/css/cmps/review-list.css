@@ -1,0 +1,17 @@
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.review-list .review {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.review-list .review .remove-btn {
+  align-self: flex-end;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
